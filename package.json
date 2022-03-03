@@ -27,6 +27,9 @@
   "author": {
     "name": "A Strapi developer"
   },
+  "optionalDependencies": {
+    "fsevents": "2.1.2" 
+  },
   "strapi": {
     "uuid": "f5abbca6-cc36-4cc1-b1fc-d060f388cab5"
   },
