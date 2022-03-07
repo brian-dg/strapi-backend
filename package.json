@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "knex": "0.21.18",
-    "pg": "8.5.1",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
@@ -28,14 +29,14 @@
     "name": "A Strapi developer"
   },
   "optionalDependencies": {
-    "fsevents": "2.1.2" 
+    "fsevents": "2.1.2"
   },
   "strapi": {
     "uuid": "f5abbca6-cc36-4cc1-b1fc-d060f388cab5"
   },
   "engines": {
-  "node": "<=v14.19.0",
-  "npm": "<=8.5.0"
+    "node": "<=v14.19.0",
+    "npm": "<=8.5.0"
   },
   "license": "MIT"
 }
